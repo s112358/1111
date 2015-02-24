@@ -78,9 +78,9 @@ namespace xWard
                 Utility.DrawCircle(new Vector3(7990, 4282, 53f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(8256, 2920, 51f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(4818, 10866, -71f), circleRange, Color.Blue);
-                Utility.DrawCircle(new Vector3(13003, 3818, 51f), circleRange, Color.Blue)
+                Utility.DrawCircle(new Vector3(13003, 3818, 51f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(6824, 10656, 55f), circleRange, Color.Blue);
-                 Utility.DrawCircle(new Vector3(12372, 4508, 51f), circleRange, Color.Blue);
+                Utility.DrawCircle(new Vector3(12372, 4508, 51f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(6574, 12006, 56f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(9130, 8346, 53f), circleRange, Color.Blue);
                 Utility.DrawCircle(new Vector3(9422, 7408, 52f), circleRange, Color.Blue);
