@@ -143,19 +143,19 @@ if (xMenu.Item("Draww").GetValue<bool>())
            if (TrinketN.IsReady())
            {
                 TrinketN.Cast(new Vector3(2729, 10879, -71f));
-                
-                TrinketN.Cast(new Vector3(2303, 10868, 53f));
                 TrinketN.Cast(new Vector3(5223, 6789, 50f));
-                TrinketN.Cast(new Vector3(5191, 7137, 50f));
+                TrinketN.Cast(new Vector3(2303, 10868, 53f));
                 TrinketN.Cast(new Vector3(8368, 4594, 51f));
+                TrinketN.Cast(new Vector3(5191, 7137, 50f));
+                
                 TrinketN.Cast(new Vector3(8100, 3429, 51f));
                 TrinketN.Cast(new Vector3(4634, 11283, 49f));
-                TrinketN.Cast(new Vector3(6672, 11466, 53f));
-                TrinketN.Cast(new Vector3(6518, 10367, 53f ));
                 TrinketN.Cast(new Vector3(9572, 8038, 57f ));
-                TrinketN.Cast(new Vector3(9697, 7854, 51f));
+                TrinketN.Cast(new Vector3(6672, 11466, 53f));
                 TrinketN.Cast(new Vector3(12235, 4068, -68f));
-               TrinketN.Cast(new Vector3(12443, 4021, -7f));
+                TrinketN.Cast(new Vector3(6518, 10367, 53f ));
+                TrinketN.Cast(new Vector3(9697, 7854, 51f));
+                TrinketN.Cast(new Vector3(12443, 4021, -7f));
                return;
            }
 
