@@ -183,17 +183,18 @@ if (xMenu.Item("Draww").GetValue<bool>())
             if (WardS.IsReady())
             {
                 WardS.Cast(new Vector3(2729, 10879, -71f));
-                WardS.Cast(new Vector3(2303, 10868, 53f));
                 WardS.Cast(new Vector3(5223, 6789, 50f));
-                WardS.Cast(new Vector3(5191, 7137, 50f));
+                WardS.Cast(new Vector3(2303, 10868, 53f));
                 WardS.Cast(new Vector3(8368, 4594, 51f));
+                WardS.Cast(new Vector3(5191, 7137, 50f));
+                
                 WardS.Cast(new Vector3(8100, 3429, 51f));
                 WardS.Cast(new Vector3(4634, 11283, 49f));
-                WardS.Cast(new Vector3(6672, 11466, 53f));
-                WardS.Cast(new Vector3(6518, 10367, 53f ));
                 WardS.Cast(new Vector3(9572, 8038, 57f ));
-                WardS.Cast(new Vector3(9697, 7854, 51f));
+                WardS.Cast(new Vector3(6672, 11466, 53f));
                 WardS.Cast(new Vector3(12235, 4068, -68f));
+                WardS.Cast(new Vector3(6518, 10367, 53f ));
+                WardS.Cast(new Vector3(9697, 7854, 51f));
                 WardS.Cast(new Vector3(12443, 4021, -7f));
                 return;
             }
