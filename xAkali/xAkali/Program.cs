@@ -12,7 +12,7 @@ namespace Exploit_Framework
     {
         public static Menu Config;
         public static List<GameObject> wards = new List<GameObject>();
-        private static Spell _Q = new Spell(SpellSlot.Q, 99999, TargetSelector.DamageType.Physical);
+        private static Spell _E = new Spell(SpellSlot.Q, 99999, TargetSelector.DamageType.Physical);
         static void Main(string[] args)
         {
             CustomEvents.Game.OnGameLoad += OnGameLoad;
@@ -40,7 +40,7 @@ namespace Exploit_Framework
                     {
                         if (minion.ServerPosition.Distance(ObjectManager.Player.ServerPosition) > 1000)
                         {
-                                _Q.CastOnUnit(minion);
+                                _E.CastOnUnit(minion);
                         }
                     }
             }
